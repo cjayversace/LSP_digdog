@@ -1,5 +1,10 @@
 package org.howard.edu.lsp.assignment2;
-
+/*
+ * Class: LSP
+ * Name: Charlie Seigler
+ * 
+ * 
+ */
 import java.io.FileNotFoundException;
 import java.util.*;
 
@@ -11,7 +16,7 @@ public class ReadFile {
 		HashMap<String, Integer> my_map = new HashMap<String, Integer>(); // creating hashmap to store all words in file
 		
 		try {
-			String file_string = fr.readToString("main/resources/Word.txt"); //store the text from the file in a string
+			String file_string = fr.readToString("main/java/resources/Word.txt"); //store the text from the file in a string
 			String[] separated = file_string.replaceAll("[^a-zA-z ]", "").toLowerCase().split(" "); //put each word into an array removing all punctuation and spaces
 			for (int x = 0; x < separated.length; x++) {
 				if (separated[x].length() > 3) {

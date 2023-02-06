@@ -2,19 +2,7 @@ package org.howard.edu.lsp.assignment2;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-import java.util.HashMap;
-
-public class FileReader {
-
-	import java.io.File;
-	import java.io.FileNotFoundException;
-	import java.net.URL;
-	import java.util.Scanner;
-
-	import java.io.File;
-	import java.io.FileNotFoundException;
-	import java.net.URL;
-	import java.util.Scanner;
+import java.net.URL;
 
 	public class FileReader {
 		public String readToString(String resource) throws FileNotFoundException {
