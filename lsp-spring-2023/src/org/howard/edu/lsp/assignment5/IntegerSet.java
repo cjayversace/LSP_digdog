@@ -6,7 +6,7 @@ import java.util.*; //for ArrayList<>()
  * making our own data structure
  * complete with functions and an error
  * 
- * @author Charlie Seigler
+ * @author Charlie Seigler 
  *
  */
 public class IntegerSet {
